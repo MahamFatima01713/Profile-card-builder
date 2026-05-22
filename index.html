@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <form action="">
+        <div class="container">
+          <h2 class="form-title">📝 Create your Profile</h2>
+        </div>
+
+        <label class="required">Enter image Url</label>
+        <input type="text" id="imageInput" placeholder="Image url" />
+
+        <label class="required">
+          Full Name<span class="required-span">*</span></label
+        >
+        <span id="nameError" class="error-message"
+          >Please enter this field</span
+        >
+        <input type="text" id="nameInput" placeholder="e.g. John Carter" />
+
+        <label class="required">Father name</label>
+        <input type="text" id="FnameInput" placeholder="Father name" />
+
+        <label class="required">Age</label>
+        <input type="text" id="AgeInput" placeholder="Age" />
+
+        <label class="required">
+          Mail<span class="required-span">*</span></label
+        >
+        <span id="mailError" class="error-message"
+          >Please enter this field</span
+        >
+        <input type="text" id="mailInput" placeholder="e.g  abc@gmail.com" />
+
+        <label class="required">Qualification</label>
+        <input
+          type="text"
+          id="QualificationInput"
+          placeholder="Qualification"
+        />
+
+        <label class="required">Additional comments</label>
+        <input type="text" id="InfoInput" />
+        <p id="successMessage">Submitted successfully</p>
+        <input type="submit" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
