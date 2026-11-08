@@ -1,4 +1,4 @@
-rofile-card-builder
+Profile-card-builder
 An interactive profile card builder — fill in the form and a personal profile card is generated instantly in the browser. Built with vanilla JavaScript, HTML and CSS.
 Features
 Form fields: profile picture (image link), name, father's name, age, email, qualification and other info
